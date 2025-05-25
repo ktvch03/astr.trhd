@@ -1,0 +1,139 @@
+body {
+  margin: 0;
+  font-family: "Sansation", sans-serif;
+  background-color: #1c1c1c;
+  color: #d3d3d3;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+.header {
+  background-image: url('./photo_5260221618108624110_y.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  position: relative;
+}
+
+.header-overlay {
+   background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fanfic-title {
+   font-size: 48px;
+  text-align: center;
+  color: #f0f0f0;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
+.her {
+  display: flex;
+  gap: 12px;
+  list-style: none;
+  padding: 0;
+  margin: 30px 0 10px;
+  justify-content: left;
+}
+
+.her li {
+  padding: 6px 14px;
+  border-radius: 16px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #e5e5e5;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease;
+}
+.her .sm {
+  background-color: #3a3a3a;
+}
+
+.her .nc {
+  background-color: #505050;
+}
+
+.her .vp {
+  background-color: #626262;
+}
+
+.her li:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 8px rgba(255, 255, 255, 0.1);
+}
+.tags h4 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.tags ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.tags li {
+  background-color: #2e2e2e;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 14px;
+    transform: scale(1.05);
+  box-shadow: 0 0 8px rgba(255, 255, 255, 0.1);
+}
+.opis ul{
+     list-style: none;
+  padding: 0;
+  margin-top: 60px;
+}
+.opis li {
+  margin-bottom: 20px;
+}
+.opis h5 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+.opis p{
+    font-size: 16px;
+  margin: 0;
+}
+.chapters{
+    margin-top: 80px;
+}
+.chapters h2 {
+     text-align: center;
+  margin-bottom: 30px;
+  font-size: 32px;
+  color: #e0e0e0;
+}
+
+.buttons {
+    margin-top: 90px;
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: stretch;
+
+}
+
+.buttons button {
+ background-color: #333;
+  color: #ddd;
+  border: none;
+  padding: 14px 20px;
+  border-radius: 10px;
+  font-size: 18px;
+  text-align: left;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.buttons button:hover {
+  background-color: #555;
+}
