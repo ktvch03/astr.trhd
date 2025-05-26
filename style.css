@@ -11,7 +11,7 @@ body {
   padding: 40px 20px;
 }
 .header {
-  background-image: url('./photo_5260221618108624110_y.jpg');
+  background-image: url(./images/photo_5260221618108624110_y.jpg);
   background-size: cover;
   background-position: center;
   height: 400px;
