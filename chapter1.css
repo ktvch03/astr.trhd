@@ -1,0 +1,38 @@
+header{
+    background-image: url(./images/photo_5260221618108624110_y.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    position: relative;
+}
+.chapter-body {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-top: 40px;
+    color: #d3d3d3;
+  }
+  
+  .chapter-body p {
+    margin-bottom: 20px;
+  }
+  
+  .chapter-navigation {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .nav-button {
+    background-color: #444;
+    color: #ddd;
+    padding: 12px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background 0.3s;
+  }
+  
+  .nav-button:hover {
+    background-color: #666;
+  }
